@@ -1,0 +1,77 @@
+.img-containter{
+        width: 409px;
+        height: 409px;
+        border:1px solid black;
+        margin: 0 auto;
+        position: relative;
+}
+
+.img-row{
+        height: 100px;
+        width: 100%;
+        display: flex;
+        border: 1px solid black;
+}
+
+.img-block{
+        width: 100px;
+        height: 100px;
+        border: 1px solid black;
+        border-collapse:collapse;       /*共享边界*/
+        float: left;
+        background: lightblue;
+        color: white;
+        font-family: sans-serif;
+        font-size: 50px;
+        text-align: center;     /*文本水平居中*/
+        line-height: 100px;     /*文本垂直居中*/
+        overflow: hidden;
+}
+
+.img-lucky-dog{
+        background-color: yellow;
+}
+
+.img-block:hover{
+        border: 1px solid red;
+}
+
+.img-block-active{
+        border: 1px solid yellow;
+}
+
+.but-style{                
+        width: 100%;        
+        text-align: center;
+}
+
+.start{
+        height: 50px;
+        width: 150px;
+        background: yellowgreen;
+        border: 1px solid black;
+        border-radius: 10px;
+        margin: 20px auto;
+        color: #fff;
+        font-size: large;
+}
+
+.pause{
+        height: 50px;
+        width: 150px;
+        background: red;
+        border: 1px solid black;
+        border-radius: 10px;
+        margin: 20px auto;
+        color: #fff;
+        font-size: large;
+}
+
+.timer-style{
+        color: black;
+       text-align: center;
+}
+
+.timer-red{
+        color: red;
+}
