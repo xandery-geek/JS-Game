@@ -124,7 +124,7 @@ function onTimer()
         {
                 second = 0;
                 minute ++;
-                if(minute >= 1)
+                if(minute >= 60)
                 {
                         minute = 0;
                         over(false);
